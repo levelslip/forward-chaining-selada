@@ -99,7 +99,7 @@ if st.button("🔍 Diagnosa", type="primary", use_container_width=True):
 st.divider()
 st.markdown("""
 <div style='text-align: center; color: gray; font-size: 0.8em;'>
-    <p>Sistem Pakar Deteksi Penyakit Tanaman Selada</p>
+    <p>Sistem Deteksi Penyakit Tanaman Selada</p>
     <p>Menggunakan Metode Forward Chaining</p>
 </div>
 """, unsafe_allow_html=True)
