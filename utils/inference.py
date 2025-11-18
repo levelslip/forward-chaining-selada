@@ -3,8 +3,6 @@ import json
 def forward_chaining(selected_gejala, rules):
     """
     Exact-match forward chaining.
-    Return kode penyakit (mis. "P01") iff set(selected_gejala) == set(rule["if"]).
-    Jika tidak ada match persis, return None.
     """
     if not selected_gejala:
         return None
